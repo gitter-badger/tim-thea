@@ -63,13 +63,41 @@ var playerChoice = prompt("Please Choose a hand: Kiss, Heart, or Cupid");
 alert(playerHand());
 console.log("Love Villian: " + compScore);
 console.log(playerName + ": " + playerScore);
+
+
+
+
+
+
+
+
 if (playerScore > compScore) {
-  document.write("<h3>" + playerName + " Wins </h3><br><h2>You Score: " + playerScore + "!</h2>" + "<br>" + "<h2>Computer Score: " + compScore + "!</h2>")
+  document.write("<h3 class='game'>" + playerName + " Wins </h3><br><h2 class='score'>You Score: " + playerScore + "!</h2>" + "<br>" + "<h2 class='score'>Love Villian: " + compScore + "!</h2>")
+	
+	
 } else if (playerScore < compScore) {
-  document.write("<h3>" + playerName + " Lost </h3><br><h2>You Score: " + playerScore + "!</h2>" + "<br>" + "<h2>Computer Score: " + compScore + "!</h2>")
+  document.write("<h3 class='game'>" + playerName + " Lost </h3><br><h2 class='score'>You Score: " + playerScore + "!</h2>" + "<br>" + "<h2 class='score'>Love Villian: " + compScore + "!</h2>")
+	
+	
 } else if (playerScore === compScore) {
-  document.write("<h3>" + playerName + " Ties! </h3><br><h2>You Score: " + playerScore + "!</h2>" + "<br>" + "<h2>Computer Score: " + compScore + "!</h2>")
+  document.write("<h3 class='game'>" + playerName + " Ties! </h3><br><h2 class='score'>You Score: " + playerScore + "!</h2>" + "<br>" + "<h2 class='score'>Love Villian: " + compScore + "!</h2>")
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 //																 KISS = ROCK    || HEART = PAPER    || CUPID = SCISSORS 
 //																 KISS = ROCK    || HEART = PAPER    || CUPID = SCISSORS 
