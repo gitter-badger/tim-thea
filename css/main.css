@@ -5,7 +5,7 @@ body {
 .heading {
     text-align: center;
     color: white;
-    font-family: cursive
+    font-family: 'Tangerine', cursive;
 }
 
 h1 {
@@ -31,6 +31,24 @@ h2 {
     border-top-right-radius: 13%;
     border-bottom-right-radius: 13%;
 }
+
+.instructions h3{
+	margin-left: 45px;
+	width: 45%;
+}
+
+button.game{
+	margin-left: 45px;
+	background-color: red;
+	width: 100px;
+	text-decoration: none;
+
+}
+
+button.game:hover {
+	color: blue;
+}
+
 
 h3 {
     font-size: 45px;
