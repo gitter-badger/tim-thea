@@ -21,7 +21,7 @@ h2 {
 
 .instructions {
     background-color: pink;
-    font-family: fantasy;
+    font-family: sans-serif;
     display: inline-block;
     float: left;
     width: 50%;
@@ -44,6 +44,10 @@ ol {
     height: 600px;
 }
 
+button a  {
+	text-decoration: none;
+}
+
 
 /*GAME.HTML*/
 
@@ -63,6 +67,6 @@ h2.score {
 	color: white;
 
 }
-=======
+
 
 
