@@ -1,9 +1,9 @@
-h1 {
-	color: crimson;
-	
+body {
+    background-color: crimson;
 }
 
-h3 {
-	color: tomato;
-
+.heading {
+    text-align: center;
+    color: white;
 }
+
