@@ -18,26 +18,7 @@ h2 {
     margin-top: -50px;
 }
 
-<<<<<<< Updated upstream
-/*GAME.HTML*/
 
-h1.heading {
-	font-size: 65px;
-}
-
-h3.game {
-	font-size: 55px;
-	text-align: center;
-	color: white;
-}
-
-h2.score {
-	font-size: 40px;
-	text-align: center;
-	color: white;
-
-}
-=======
 .instructions {
     background-color: pink;
     font-family: fantasy;
@@ -62,4 +43,26 @@ ol {
     background-color: pink;
     height: 600px;
 }
->>>>>>> Stashed changes
+
+
+/*GAME.HTML*/
+
+h1.heading {
+	font-size: 65px;
+}
+
+h3.game {
+	font-size: 55px;
+	text-align: center;
+	color: white;
+}
+
+h2.score {
+	font-size: 40px;
+	text-align: center;
+	color: white;
+
+}
+=======
+
+
